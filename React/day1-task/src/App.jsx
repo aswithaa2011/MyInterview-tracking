@@ -1,3 +1,4 @@
+import FetchAPI from "./Components/FetchAPI"
 import ProductCalculator from "./Components/ProductCalculator"
 import StudentGradeSystem from "./Components/StudentGradeSystem"
 
@@ -6,7 +7,7 @@ const App = () => {
 <>
 <ProductCalculator/>
 <StudentGradeSystem/>
-
+<FetchAPI/>
 </>
   )
 }
