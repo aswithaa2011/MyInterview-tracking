@@ -1,4 +1,5 @@
 import EmployeeRegistration from "./Components/EmployeeRegistration"
+import FetchAPI from "./Components/FetchAPI"
 import ProductSearchSystem from "./Components/ProductSearchSystem"
 
 const App = () => {
@@ -7,6 +8,7 @@ const App = () => {
     
     <EmployeeRegistration/>
     <ProductSearchSystem/>
+    <FetchAPI/>
     </>
   )
 }
