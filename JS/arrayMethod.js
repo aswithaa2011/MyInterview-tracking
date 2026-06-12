@@ -11,14 +11,21 @@
     
 // })
 
-const users = 
-[ { id: 1, name: "Sudhan" },
-     { id: 2, name: "Kumar" }, 
-     { id: 3, name: "Ravi" } ];
+// const users = 
+// [ { id: 1, name: "Sudhan" },
+//      { id: 2, name: "Kumar" }, 
+//      { id: 3, name: "Ravi" } ];
 
-     const findUsers=users.find((f)=>f.id===2)
+//      const findUsers=users.find((f)=>f.id===2)
 
-    console.log(findUsers.name,findUsers.id);
+//     console.log(findUsers.name,findUsers.id);
     
 
-     
+      const cart = [ { product: "Laptop", price: 50000 }, { product: "Mouse", price: 500 }, { product: "Keyboard", price: 1500 } ]; 
+
+     const priceTotal= cart.reduce((acc,curvalue)=>{
+                return acc+curvalue.price
+          },0)
+
+          console.log(priceTotal);
+          
